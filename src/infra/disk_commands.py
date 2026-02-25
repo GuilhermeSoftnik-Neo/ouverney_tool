@@ -5,12 +5,19 @@ except:
 
 class VerificacaoDeDisco(base_command.Comando):
     def __init__(self):
-        self.nome = "Verificação de Disco e Integridade do Sistema"
+        self.nome = "Verificação de Disco"
+        self.desc = "Corrige os erros do disco rígido."
+
+    def executar(self):
+        self.system("chkdsk C: /f")
+
+class ChecagemDoSistema():
+    def __init__(self):
+        self.nome = "Checagem do Sistema"
         self.desc = " Verifica a integridade de todos os arquivos do sistema protegidos e repara os arquivos com problemas quando possível."
 
     def executar(self):
-        self.system("sfc /scannow", shell=True)
-
+        self.system("sfc /scannow")
 
 class AnalisarNecessidadeDeFragmentacao(base_command.Comando):
     def __init__(
