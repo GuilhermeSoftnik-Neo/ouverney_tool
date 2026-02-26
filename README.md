@@ -6,10 +6,12 @@
 
 <!-- Adicione badges como linguagem, licença, etc. aqui -->
 
+![Python](https://img.shields.io/badge/Python-yellow) ![Windows](https://img.shields.io/badge/Windows-blue)
+
 ## 📝 Descrição
 O programa serve para automatizar e simplificar procedimentos comuns no Windows de manutenção. O programa utiliza **APENAS**:
 
-![Windows](https://img.shields.io/badge/Windows-blue)
+## Windows:
 
     - Disco:
         - Defrag
@@ -23,9 +25,7 @@ O programa serve para automatizar e simplificar procedimentos comuns no Windows 
 
     - Limpeza:
         - CleanMGR
-
-![Python](https://img.shields.io/badge/Python-yellow)
-
+## Python
     - Bibliotecas Externas:
         - Sem bibliotecas externas utilizadas.
           (Por isso que não há um requirements.txt)
