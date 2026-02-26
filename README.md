@@ -1,4 +1,4 @@
-# The Ouverney Tool 🚀
+# The Ouverney Tool (🇧🇷)🚀
 
 > Automatiza o uso de ferramentas nativas do Windows.
 
