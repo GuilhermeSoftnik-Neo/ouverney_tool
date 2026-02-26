@@ -57,6 +57,7 @@ Certifique-se de ter instalado o ![Python](https://img.shields.io/badge/Python-+
 
 ```bash
 # Clone o repositório
+# Abra o Prompt de Comando como Administrador
 git clone https://github.com/GuilhermeSoftnik-Neo/ouverney_tool
 
 # Entre na pasta
