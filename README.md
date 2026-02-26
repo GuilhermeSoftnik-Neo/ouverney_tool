@@ -9,7 +9,7 @@
 ![Python](https://img.shields.io/badge/Python-yellow) ![Windows](https://img.shields.io/badge/Windows-blue)
 
 ## 📝 Descrição
-O programa serve para automatizar e simplificar procedimentos comuns no Windows de manutenção. O programa utiliza **APENAS**:
+O programa serve para automatizar e simplificar procedimentos comuns no Windows de manutenção. Não se preocupe, você pode sim usar o PC normalmente enquanto o programa trabalha. O programa utiliza **APENAS**:
 
 ## Windows:
 
@@ -25,49 +25,42 @@ O programa serve para automatizar e simplificar procedimentos comuns no Windows 
 
     - Limpeza:
         - CleanMGR
-## Python
-    - Bibliotecas Externas:
-        - Sem bibliotecas externas utilizadas.
-          (Por isso que não há um requirements.txt)
 
-    - Bibliotecas Built-in:
-        - os
-        - abc
-        - shlex
-        - typing
-        - logging
-        - inspect
-        - pathlib
-        - textwrap
-        - importlib
-        - subprocess
-
-
-
-
-##### ✨ Funcionalidades
+## ✨ Funcionalidades
 - [ ] Execução de comandos em sequência automática
 - [ ] Mini manutenção automática
 - [ ] Te permite passar tempo com a família enquanto o programa faz o que você mandou
 
-## 💻🐍 Como Rodar o Projeto
-Certifique-se de ter instalado o ![Python](https://img.shields.io/badge/Python-+3.10-blue).
 
+## Como Obter o Programa:
+### Método 1 - Via Git:
+Passo 1- Ambiente certo: Abra o Prompt de Comando como Administrador
 
+Passo 2- Execute:
 
-```bash
-# Clone o repositório
-# Abra o Prompt de Comando como Administrador
+```cmd
 git clone https://github.com/GuilhermeSoftnik-Neo/ouverney_tool
+```
 
-# Entre na pasta
-cd ouverney_tool
 
-# Execute o projeto
+______________________________
+### Método 2 - Sem Git:
+Passo 1: Baixe o código (.zip) no repositório https://github.com/GuilhermeSoftnik-Neo/ouverney_tool
+
+Passo 2: Extraia onde desejar
+
+---
+
+## 💻🐍 Como Usar o Programa:
+
+Pré-requisitos:
+- Python +3.10
+- Windows 7/+
+- CMD como Administrador
+
+Com o CMD/PowerShell (privilegiado), vá até a pasta raiz, que contém o arquivo main.py
+
+Uma vez dentro da pasta "ouverney_tool", execute o arquivo main.py com o python.
+```cmd
 python main.py
-
-# Ordene e descanse :3
-# (Não se preocupe, você pode sim usar o PC normalmente enquanto o programa trabalha)
-
-
-
+```
