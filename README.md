@@ -18,8 +18,8 @@ Este programa serve para automatizar e simplificar procedimentos comuns de manut
 ### Ferramentas do Windows que o Programa Utiliza:
 | Disco  | Rede     | Limpeza  | Sistema 
 | :---:  | :---:    | :---:    | :---:  
-| Defrag | Netsh    | CleanMGR | Sfc 
-| Chkdsk | Ipconfig | ---      | Dism 
+| Defrag | Netsh    | CleanMGR | SFC 
+| Chkdsk | Ipconfig | ---      | DISM 
 
 ### ✨ Funcionalidades
 - [x] Execução de comandos em sequência automática
