@@ -4,63 +4,70 @@
 
 [Em desenvolvimento]
 
-<!-- Adicione badges como linguagem, licença, etc. aqui -->
+![Python](https://img.shields.io/badge/Python-yellow)
+![Windows](https://img.shields.io/badge/Windows-darkblue)
+![MIT](https://img.shields.io/badge/license-MIT-darkgreen)
 
-![Python](https://img.shields.io/badge/Python-yellow) ![Windows](https://img.shields.io/badge/Windows-blue)
 
 ## 📝 Descrição
-O programa serve para automatizar e simplificar procedimentos comuns no Windows de manutenção. Não se preocupe, você pode sim usar o PC normalmente enquanto o programa trabalha. O programa utiliza **APENAS**:
+Meu primeiro projeto publicado! :3
 
-## Windows:
-
-    - Disco:
-        - Defrag
-        - Chkdsk
-        - SFC
-        - DISM
-
-    - Rede:
-        - Netsh
-        - Ipconfig
-
-    - Limpeza:
-        - CleanMGR
-
-## ✨ Funcionalidades
-- [ ] Execução de comandos em sequência automática
-- [ ] Mini manutenção automática
-- [ ] Te permite passar tempo com a família enquanto o programa faz o que você mandou
+Este programa serve para automatizar e simplificar procedimentos comuns de manutenção no Windows e é voltado a usuários com conhecimento básico em comandos do Windows. Não se preocupe, você pode sim usar o PC normalmente enquanto o programa trabalha. O programa utiliza **APENAS**:
 
 
-## Como Obter o Programa:
-### Método 1 - Via Git:
-Passo 1- Ambiente certo: Abra o Prompt de Comando como Administrador
+### Ferramentas do Windows que o Programa Utiliza:
+| Disco  | Rede     | Limpeza  | Sistema 
+| :---:  | :---:    | :---:    | :---:  
+| Defrag | Netsh    | CleanMGR | Sfc 
+| Chkdsk | Ipconfig | ---      | Dism 
 
-Passo 2- Execute:
+### ✨ Funcionalidades
+- [x] Execução de comandos em sequência automática
+- [x] Te permite passar mais tempo com a família :3
+- [ ] Mini manutenção automática 
+- [ ] Desligamento automático
+- [ ] Perfis de sequência
 
+
+### 📦 Como Obter o Programa:
+#### Método 1 - Via Git:
 ```cmd
 git clone https://github.com/GuilhermeSoftnik-Neo/ouverney_tool
 ```
 
-
-______________________________
-### Método 2 - Sem Git:
-Passo 1: Baixe o código (.zip) no repositório https://github.com/GuilhermeSoftnik-Neo/ouverney_tool
+---
+#### Método 2 - Sem Git:
+Passo 1: Baixe o código (.zip) [neste repositório](https://github.com/GuilhermeSoftnik-Neo/ouverney_tool)
 
 Passo 2: Extraia onde desejar
 
----
 
-## 💻🐍 Como Usar o Programa:
+
+
+## 💻 Como Usar o Programa 🐍:
 
 Pré-requisitos:
-- Python +3.10
+- [Python 3.10+](https://www.python.org/)
 - Windows 7/+
-- CMD como Administrador
+- Prompt de Comando (CMD) executado como Administrador
 
-Com o CMD/PowerShell (privilegiado), vá até a pasta raiz, que contém o arquivo main.py
+Passo 1: Navegue até a pasta baixada (ouverney_tool)
+```cmd
+cd ouverney_tool
+```
 
-Uma vez dentro da pasta "ouverney_tool", execute o arquivo main.py com o python.
+Passo 2: Inicie o programa
 ```cmd
 python main.py
 ```
+
+## ⚠ Avisos e Recomendações:
+Avisos:
+- O programa **NÃO TEM** uma ordem de prioridade e fará **EXATAMENTE** o que você ordenar.
+- Use sequências grandes com cuidado
+- sqrt(-1) loves you!
+
+Recomendações:
+- Pesquise sobre cada ferramenta na tabela, para maior compreensão do que fazem.
+- Priorize opções de diagnóstico e análise invés de ações imediatas, isso pode melhorar a eficácia das ferramentas.
+- Se quiser testar com segurança e calma, sinta-se à vontade para testar numa Virtual Machine.
