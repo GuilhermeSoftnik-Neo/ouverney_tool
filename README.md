@@ -47,7 +47,7 @@ Passo 2: Extraia onde desejar
 ## 💻 Como Usar o Programa 🐍:
 
 Pré-requisitos:
-- [Python 3.10+](https://www.python.org/)
+- [Python 3.12+](https://www.python.org/)
 - Windows 7/+
 - Prompt de Comando (CMD) executado como Administrador
 
