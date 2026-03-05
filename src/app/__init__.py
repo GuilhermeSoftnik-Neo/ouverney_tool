@@ -1,5 +1,19 @@
-from logging import info, error, warning
+from logging import info, error, warning, basicConfig, INFO
+from pathlib import Path
 
+THIS_FILE = Path(__file__).resolve()
+ROOT = THIS_FILE.parents[2]
+
+def setup_log():
+    LOG_FILE = ROOT / "LOG.txt"
+    basicConfig(
+        level=INFO,
+        filemode="w",
+        encoding="UTF-8",
+        filename=LOG_FILE,
+        datefmt="%H:%M:%S",
+        format="%(asctime)s - [%(funcName)s]: %(message)s",
+    )
 
 
 def ask_actions():

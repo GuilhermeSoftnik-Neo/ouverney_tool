@@ -13,18 +13,7 @@ from src.banner_tools import convert_boolean_to_message as translate
 
 
 comandos = [i() for i in get_every_obj_child_of_Comando()]
-LOG_FILE = Path(__file__).resolve().parent / "LOG.txt"
 skip_asks = True
-
-
-basicConfig(
-    level=INFO,
-    filemode="w",
-    encoding="UTF-8",
-    filename=LOG_FILE,
-    datefmt="%H:%M:%S",
-    format="%(asctime)s - [%(funcName)s]: %(message)s",
-)
 
 main_options = [
     "Iniciar",

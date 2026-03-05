@@ -18,8 +18,8 @@ Este programa serve para automatizar e simplificar procedimentos comuns de manut
 ### Ferramentas do Windows que o Programa Utiliza:
 | Disco  | Rede     | Limpeza  | Sistema 
 | :---:  | :---:    | :---:    | :---:  
-| Defrag | Netsh    | CleanMGR | Sfc 
-| Chkdsk | Ipconfig | ---      | Dism 
+| Defrag | Netsh    | CleanMGR | SFC 
+| Chkdsk | Ipconfig | ---      | DISM 
 
 ### ✨ Funcionalidades
 - [x] Execução de comandos em sequência automática
@@ -47,7 +47,7 @@ Passo 2: Extraia onde desejar
 ## 💻 Como Usar o Programa 🐍:
 
 Pré-requisitos:
-- [Python 3.10+](https://www.python.org/)
+- [Python 3.12+](https://www.python.org/)
 - Windows 7/+
 - Prompt de Comando (CMD) executado como Administrador
 
