@@ -1,0 +1,6 @@
+10:39:51 - [process_actions]: [EXECUTANDO] Opções de Desempenho
+10:39:51 - [processar]: Comando ao Windows: $SystemPropertiesPerformance.exe
+10:40:16 - [process_actions]: Opções de Desempenho [SUCESSO]
+10:40:16 - [process_actions]: [EXECUTANDO] Configurar CleanMGR
+10:40:16 - [processar]: Comando ao Windows: $cleanmgr.exe /sageset:1 /d c:
+10:40:23 - [process_actions]: Configurar CleanMGR [SUCESSO]

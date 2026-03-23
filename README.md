@@ -61,7 +61,7 @@ Passo 2: Inicie o programa
 python main.py
 ```
 
-## ⚠ Avisos e Recomendações:
+## ⚠ Avisos, Dicas e Recomendações:
 Avisos:
 - O programa **NÃO TEM** uma ordem de prioridade e fará **EXATAMENTE** o que você ordenar.
 - Use sequências grandes com cuidado
@@ -71,3 +71,10 @@ Recomendações:
 - Pesquise sobre cada ferramenta na tabela, para maior compreensão do que fazem.
 - Priorize opções de diagnóstico e análise invés de ações imediatas, isso pode melhorar a eficácia das ferramentas.
 - Se quiser testar com segurança e calma, sinta-se à vontade para testar numa Virtual Machine.
+
+Dicas:
+- Para executar comandos em massa, separe-os por vírgula.
+    --> Exemplo: 1, 3, 4
+
+- Pode-se repetir comandos.
+    --> Exemplo: 1, 1, 1, 1, 2

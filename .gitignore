@@ -1,3 +1,7 @@
+# Other exclusions
+src/profile_manager
+src/data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
